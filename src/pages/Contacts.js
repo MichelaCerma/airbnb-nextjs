@@ -1,3 +1,7 @@
 export default function contacts() {
-  return <h1>Contacts</h1>;
+  return (
+    <>
+      <h1>Contacts</h1>
+    </>
+  );
 }

@@ -1,13 +1,17 @@
 .Navbar {
   padding: 20px;
-  border: 1px solid red;
+ 
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  .logo {
+   
+  }
   ul {
     display: flex;
     gap: 20px;
+    align-self: flex-end;
     list-style: none;
   }
   a {
@@ -15,13 +19,8 @@
     text-decoration: none;
     color: black;
   }
-  .SignUp {
-    border-radius: 20px;
-    color: rgb(119, 26, 26);
-    padding: 10px 30px;
-    background-color: #34987d;
-    a {
-      color: inherit;
-    }
+  .userActions {
+    display: flex;
+  
   }
 }

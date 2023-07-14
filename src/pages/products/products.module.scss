@@ -1,0 +1,21 @@
+.products {
+  padding: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  & img {
+    width: 300px;
+    object-position: center;
+    object-fit: cover;
+    height: 300px;
+
+    border-radius: 20px;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
