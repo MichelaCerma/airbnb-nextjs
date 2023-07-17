@@ -2,7 +2,7 @@ import React from "react";
 import { useRouter } from "next/router";
 import { roomList } from "../mocks/reservations";
 
-export default function locations() {
+function locations() {
   const router = useRouter();
   const onHandleClick = (id) => router.push(`/locations/${id}`);
   return (
@@ -19,3 +19,4 @@ export default function locations() {
     </>
   );
 }
+export default locations

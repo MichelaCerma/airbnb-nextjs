@@ -63,7 +63,7 @@ export default function products() {
       {products ? (
         <>
           {products.products.map((product) => (
-            <div className={styles.products}>
+            <div className={styles.products} key={product.id}>
               <img src={product.thumbnail} />
               <div className="details">
                 <h2>{product.title}</h2>
