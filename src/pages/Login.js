@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "../styles/login.module.scss";
+import styles from "@/styles/login.module.scss";
 import { credentials } from "../mocks/credentials.js";
 import { useRouter } from "next/router";
 function Login({ setAuthUser }) {
