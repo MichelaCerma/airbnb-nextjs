@@ -1,10 +1,9 @@
-import { useState } from "react";
+import { createContext, useState } from "react";
 import styles from "@/styles/login.module.scss";
 import { credentials } from "../mocks/credentials.js";
 import { useRouter } from "next/router";
 function login({ setAuthUser }) {
   const router = useRouter();
-
   const [username, setUserName] = useState("");
   const [password, setPassword] = useState("");
 

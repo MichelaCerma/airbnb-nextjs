@@ -3,7 +3,9 @@ import styles from "./NavBar.module.scss";
 import { FaRegUser, FaRegBell } from "react-icons/fa6";
 import { LuLogIn } from "react-icons/lu";
 import { useRouter } from "next/router";
+import { createContext } from "react";
 
+export const animal = createContext("elefante");
 const NavBar = ({ setAuthUser, AuthUser }) => {
   const onHandleClick = () => {
     router.push("/login");
